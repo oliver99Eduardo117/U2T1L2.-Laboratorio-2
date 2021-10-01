@@ -20,7 +20,7 @@ namespace Functions.IntegrationsTest
         [Fact]
         public async Task WhenfunctioIsInvoked()
         {
-            httpResponseMessage = await testFixture.Client.GetAsync("api/Welcome?name=Eduardo");
+            httpResponseMessage = await testFixture.Client.GetAsync("api/Welcome?name=OLIVER");
             Assert.True(httpResponseMessage.IsSuccessStatusCode);
         }
     }
